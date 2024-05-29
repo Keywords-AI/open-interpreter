@@ -77,7 +77,8 @@
             "language-models/hosted-models/palm",
             "language-models/hosted-models/perplexity",
             "language-models/hosted-models/petals",
-            "language-models/hosted-models/vllm"
+            "language-models/hosted-models/vllm",
+            "language-models/hosted-models/keywords-ai"
           ]
         },
         {

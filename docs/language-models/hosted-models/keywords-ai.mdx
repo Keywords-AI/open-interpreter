@@ -1,0 +1,28 @@
+---
+title: Keywords AI
+---
+
+Keywords AI is a unified developer platform where you can call 150+ LLM using the OpenAI format with one API key and get insights into your AI products. With 2 lines of code, you can build better AI products with complete observability.
+
+To use Open Interpreter with Keywords AI, set the `model`, `api_key`, and `api_base` flags:
+
+<CodeGroup>
+
+```bash Terminal
+interpreter --model <keywords_ai-model> --api_key "Your_Keywords_AI_API_Key" --api_base "https://api.keywordsai.co/api/"
+```
+
+```python Python
+from interpreter import interpreter
+
+interpreter.llm.model = "<keywords_ai-model>"
+interpreter.llm.api_key = "Your_Keywords_AI_API_Key"
+interpreter.llm.api_base = "https://api.keywordsai.co/api/"
+interpreter.chat()
+```
+
+</CodeGroup>
+
+# Supported Models
+
+All 150+ models on Keywords AI are supported. The full list of supported models by Keywords AI can be found in the [page](https://platform.keywordsai.co/platform/models).
